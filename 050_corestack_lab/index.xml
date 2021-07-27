@@ -13,7 +13,7 @@
       
       <guid>/050_corestack_lab/50_onboard_aws_account.html</guid>
       <description>Onboarding an AWS account using CFN template for role creation ​  Please use the link below when created the CFT.​
-https://corestack-cfn.s3.amazonaws.com/AWS_Create_IAM_Role_With_Corestack_Policies_content.json​</description>
+https://corestack-cfn.s3.amazonaws.com/AWS_Create_IAM_Role_For_CorestackAssessmentandGovernance_content.json​</description>
     </item>
     
     <item>
@@ -23,9 +23,9 @@ https://corestack-cfn.s3.amazonaws.com/AWS_Create_IAM_Role_With_Corestack_Polici
       
       <guid>/050_corestack_lab/51_infra_as_code.html</guid>
       <description>Infra as code – use cases​ Provisioning of VM using CFN / Terraform​
- Please refer to the GitHub Account - (https://github.com/aws-samples/aws-modernization-with-corestack).​  Provisioning a DB using CFN / Terraform​
- Please refer to the GitHub Account - (https://github.com/aws-samples/aws-modernization-with-corestack).​  Provisioning a Container using CFN / Terraform​
- Please refer to the GitHub Account - (https://github.com/aws-samples/aws-modernization-with-corestack).​  ​</description>
+ CFN Template - https://raw.githubusercontent.com/corestacklabs/Templates/master/cfn/AWS_EC2_Instance_With_SecurityGroup/AWS_EC2_Instance_With_SecurityGroup.yml  Provisioning a DB using CFN / Terraform​
+ CFN Template - https://raw.githubusercontent.com/corestacklabs/Templates/master/cfn/AWS_Provision_DynamoDB_Table/AWS_Dynamo_DB_Provision.yml  Provisioning a Container using CFN / Terraform​
+ CFN Template - https://raw.githubusercontent.com/corestacklabs/Templates/master/cfn/AWS_Provision_EKS_Cluster/AWS_Provision_EKS_Cluster.yml  ​</description>
     </item>
     
     <item>

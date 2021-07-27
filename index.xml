@@ -34,7 +34,7 @@ Once your account is created, you will be able to login to CoreStack and get sta
       
       <guid>/050_corestack_lab/50_onboard_aws_account.html</guid>
       <description>Onboarding an AWS account using CFN template for role creation ​  Please use the link below when created the CFT.​
-https://corestack-cfn.s3.amazonaws.com/AWS_Create_IAM_Role_With_Corestack_Policies_content.json​</description>
+https://corestack-cfn.s3.amazonaws.com/AWS_Create_IAM_Role_For_CorestackAssessmentandGovernance_content.json​</description>
     </item>
     
     <item>
@@ -63,9 +63,9 @@ https://corestack-cfn.s3.amazonaws.com/AWS_Create_IAM_Role_With_Corestack_Polici
       
       <guid>/050_corestack_lab/51_infra_as_code.html</guid>
       <description>Infra as code – use cases​ Provisioning of VM using CFN / Terraform​
- Please refer to the GitHub Account - (https://github.com/aws-samples/aws-modernization-with-corestack).​  Provisioning a DB using CFN / Terraform​
- Please refer to the GitHub Account - (https://github.com/aws-samples/aws-modernization-with-corestack).​  Provisioning a Container using CFN / Terraform​
- Please refer to the GitHub Account - (https://github.com/aws-samples/aws-modernization-with-corestack).​  ​</description>
+ CFN Template - https://raw.githubusercontent.com/corestacklabs/Templates/master/cfn/AWS_EC2_Instance_With_SecurityGroup/AWS_EC2_Instance_With_SecurityGroup.yml  Provisioning a DB using CFN / Terraform​
+ CFN Template - https://raw.githubusercontent.com/corestacklabs/Templates/master/cfn/AWS_Provision_DynamoDB_Table/AWS_Dynamo_DB_Provision.yml  Provisioning a Container using CFN / Terraform​
+ CFN Template - https://raw.githubusercontent.com/corestacklabs/Templates/master/cfn/AWS_Provision_EKS_Cluster/AWS_Provision_EKS_Cluster.yml  ​</description>
     </item>
     
     <item>
@@ -75,7 +75,7 @@ https://corestack-cfn.s3.amazonaws.com/AWS_Create_IAM_Role_With_Corestack_Polici
       
       <guid>/040_corestack_setup/41_corestack_mp_trial.html</guid>
       <description>Pre-Onboarding (Prepare your Cloud Accounts) ​ You will need to set up the right access permissions to your cloud accounts for CoreStack. ​
-For AWS accounts, you will need to create an IAM Role for CoreStack, with necessary access permissions based on your preference for Assessment-Only or Assessment + Governance to be performed for that account. (corestack-cfn.s3.amazonaws.com/AWS_Create_IAM_Role_With_Corestack_Policies_content.json)​
+For AWS accounts, you will need to create an IAM Role for CoreStack, with necessary access permissions based on your preference for Assessment-Only or Assessment + Governance to be performed for that account. (https://corestack-cfn.s3.amazonaws.com/AWS_Create_IAM_Role_For_CorestackAssessmentandGovernance_content.json)​
 CoreStack provides ready-made templates that can be used for this purpose which have appropriate access permissions built-in as part of the templates.</description>
     </item>
     
