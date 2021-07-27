@@ -66,9 +66,9 @@ Lists all template executions of the current tenant. A sample screenshot is show
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/030_self_guided_setup/36_config_workshop_req.html</guid>
-      <description>Additional workshop specific requirements  Template Actions​
+      <description>Additional workshop specific requirements Template Actions​
  Template actions will be shown to every template listed when you are hovering mouse on a template. The list of actions depends on the scope of the template (Marketplace, My Templates) and the RBAC access for templates that user has.​
-Execute – Executes the template immediately and redirects to “Job history” where you can see the status and output of the execution.</description>
+Execute – Executes the template immediately and redirects to “Job history” where you can see the status and output of the execution. ​</description>
     </item>
     
   </channel>
