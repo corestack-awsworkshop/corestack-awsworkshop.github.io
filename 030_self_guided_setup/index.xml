@@ -18,7 +18,16 @@
     </item>
     
     <item>
-      <title>2. AWS Credit Request</title>
+      <title>2. CoreStack Sign Up</title>
+      <link>/030_self_guided_setup/31_corestack_mp_trial.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/030_self_guided_setup/31_corestack_mp_trial.html</guid>
+      <description>Signing up for CoreStack via AWS Marketplace  Visit CoreStack in AWS Marketplace You&amp;rsquo;ll land here  Click the Try for free button on the top right-hand corner. You may be prompted to sign in to the AWS account you just created, or the one you will be using for this workshop:  Click the 14 Day Free Trial option and your page should look like this:  Click the Create contract button in the purchase box.</description>
+    </item>
+    
+    <item>
+      <title>3. AWS Credit Request</title>
       <link>/030_self_guided_setup/32_request_credit.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -27,27 +36,39 @@
     </item>
     
     <item>
-      <title>3. Create a Workspace</title>
-      <link>/030_self_guided_setup/34_start_cloud9workspace.html</link>
+      <title>4. Setting up an instance</title>
+      <link>/030_self_guided_setup/34_start_corestackinstance.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/030_self_guided_setup/34_start_cloud9workspace.html</guid>
-      <description>Set up the Workspace AWS Cloud9 is a cloud-based integrated development environment (IDE) that lets you write, run, and debug your code with just a browser. It includes a code editor, debugger, and terminal. Cloud9 comes prepackaged with essential tools for popular programming languages, including JavaScript, Python, PHP, and more, so you don’t need to install files or configure your laptop for this workshop.
-We will use Amazon Cloud9 to access our AWS accounts via the AWS CLI in this Workshop.</description>
+      <guid>/030_self_guided_setup/34_start_corestackinstance.html</guid>
+      <description>Setting up an instance Given below are the steps involved in setting up CoreStack ECG for assessment and observability of your multi-cloud infrastructure. ​
+1 . Set-up CoreStack Account​
+2 . Pre-Onboarding (Prepare your Cloud Accounts)​
+3 . On-boarding (Add your Cloud Accounts to CoreStack)​
+4 . Post-Onboarding (Validate your Cloud Accounts &amp;amp; Configurations)​
+5 . Visibility – View Dashboards on OSCAR Posture​
+6 . Assessment – Get your Governance Assessment Score!</description>
     </item>
     
     <item>
-      <title>5. Configure workshop specific requirements</title>
+      <title>5. Create and apply templates</title>
+      <link>/030_self_guided_setup/35_create_apply_templates.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/030_self_guided_setup/35_create_apply_templates.html</guid>
+      <description>Create and apply templates CoreStack™ also provides the option for users to upload their own templates and use them to execute against their service accounts. Follow the steps given below: Use the ‘+’ button next to the ‘Search’ bar at top right.​ ​ Template create window will have 3 sections as follows: Properties, Content and Metadata.​
+Lists all template executions of the current tenant. A sample screenshot is shown below.</description>
+    </item>
+    
+    <item>
+      <title>5. Additional workshop specific requirements</title>
       <link>/030_self_guided_setup/36_config_workshop_req.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/030_self_guided_setup/36_config_workshop_req.html</guid>
-      <description>Configure Workspace  Return to your workspace and click the gear icon (in top right corner), or click to open a new tab and choose &amp;ldquo;Open Preferences&amp;rdquo;
- Select AWS SETTINGS and turn off AWS managed temporary credentials
- Close the Preferences tab
- Copy and run (paste with Ctrl+P or CMD+P) the commands below.
-Before running it, review what it does by reading through the comments.
-# Update awscli sudo pip install --upgrade awscli &amp;amp;&amp;amp; hash -r # Install jq command-line tool for parsing JSON, and bash-completion sudo yum -y install jq gettext bash-completion moreutils # Install yq for yaml processing echo &amp;#39;yq() { docker run --rm -i -v &amp;#34;${PWD}&amp;#34;:/workdir mikefarah/yq yq &amp;#34;$@&amp;#34; }&amp;#39; | tee -a ~/.</description>
+      <description>Additional workshop specific requirements  Template Actions​
+ Template actions will be shown to every template listed when you are hovering mouse on a template. The list of actions depends on the scope of the template (Marketplace, My Templates) and the RBAC access for templates that user has.​
+Execute – Executes the template immediately and redirects to “Job history” where you can see the status and output of the execution.</description>
     </item>
     
   </channel>

@@ -1,17 +1,17 @@
 [
 {
-	"uri": "/ee/",
-	"title": "AWS Modernization Workshop",
-	"tags": [],
-	"description": "",
-	"content": " AWS Marketplace DevOps Workshop Series Hands-on Lab with Partner Welcome This hands-on lab is part of the AWS Marketplace DevOps Workshop Series. In this lab, you will gain experience using Partner to deploy an application to AWS EKS. Partner is a self-service CI/CD platform that allows engineers and DevOps team to build, test, deploy, and verify software, on-demand. By completing this lab you will learn how to leverage Partner for easier deployments of your applications.\nPartner is available in AWS Marketplace. AWS Marketplace is a digital software catalog that makes it easy to find, try, buy, deploy, and manage software that runs on AWS. AWS Marketplace has a broad and deep selection of ISV solutions that can help you build your ideal DevOps toolchain in the cloud.\n\n"
-},
-{
 	"uri": "/ee/010_introduction.html",
 	"title": "Introduction",
 	"tags": [],
 	"description": "",
-	"content": " Learning Objectives Today we are going to learn the following topics:\n What will the audience learn today? This section and all pages within it should set the stage and be the hook for why the audience should care.  Workshop Structure This workshop is broken into the sections list below. Estimated time for completing the workshop is 1.5-2.5 hours.\n Prerequisites (5 minutes) Provision a Cloud9 instance and validate Setup (15 minutes) Install necessary tooling to complete the lab What will the partner section look like and how long does it take to complete  "
+	"content": " Learning Objectives Today we are going to learn the following topics:\n How to deploy a sample CoreStack instance to your AWS environment:​  Onboard cloud account(s)​ Apply templates and enable guardrails to run policy checks​  Learn about the benefits of the CoreStack solution in the following areas:​  FinOps: Optimized \u0026amp; Managed Cloud Spend​ SecOps: Assured Security \u0026amp; Compliance​ CloudOps: Streamlined \u0026amp; Automated Operations   Workshop Structure This workshop is broken into the sections list below. Estimated time for completing the workshop is 2.5 hours.​\n Prerequisites (30 minutes) Access to an AWS account with proper permissions and sign-up for a CoreStack trial account​ Setup (30 minutes) Install necessary tooling to complete the lab and deploy CoreStack​ Workshop Exercises (90 minutes)  Provisioning of VM using CFN/Terraform Provisioning a DB using CFN/Terraform​ Provisioning a Container using CFN/Terraform   "
+},
+{
+	"uri": "/ee/",
+	"title": "Introduction",
+	"tags": [],
+	"description": "",
+	"content": " Learning Objectives Today we are going to learn the following topics:\n How to deploy a sample CoreStack instance to your AWS environment:​  Onboard cloud account(s)​ Apply templates and enable guardrails to run policy checks​  Learn about the benefits of the CoreStack solution in the following areas:​  FinOps: Optimized \u0026amp; Managed Cloud Spend​ SecOps: Assured Security \u0026amp; Compliance​ CloudOps: Streamlined \u0026amp; Automated Operations   Workshop Structure This workshop is broken into the sections list below. Estimated time for completing the workshop is 2.5 hours.​\n Prerequisites (30 minutes) Access to an AWS account with proper permissions and sign-up for a CoreStack trial account​ Setup (30 minutes) Install necessary tooling to complete the lab and deploy CoreStack​ Workshop Exercises (90 minutes)  Provisioning of VM using CFN/Terraform Provisioning a DB using CFN/Terraform​ Provisioning a Container using CFN/Terraform   "
 },
 {
 	"uri": "/ee/020_event_engine_setup.html",
@@ -32,7 +32,7 @@
 	"title": "Foreword",
 	"tags": [],
 	"description": "",
-	"content": " How did we get here? Set the stage for the audience, this page isn\u0026rsquo;t mandatory but can be a page for the hook in the story you\u0026rsquo;re trying to tell.\n"
+	"content": " How did we get here? The cloud lies at the heart of any enterprise digital transformation initiative, but there are numerous challenges with cloud adoption:​\n Unabated \u0026amp; Wasted Cloud Costs​ Security \u0026amp; Compliance Issues​ Cloud Operational Complexities​  With 92% of enterprises operating from a multi-cloud strategy, with an average of 2.6 public clouds, today’s organization often find themselves overshooting cloud budgets, accidentally exposing data or services and not continuously optimizing cloud workloads.\n"
 },
 {
 	"uri": "/ee/020_event_engine_setup/22_start_cloud9workspace.html",
@@ -43,10 +43,10 @@
 },
 {
 	"uri": "/ee/010_introduction/12_problem_to_solve.html",
-	"title": "The Technical Challenge/Problem",
+	"title": "Business Problem to Solve",
 	"tags": [],
 	"description": "",
-	"content": " What is the problem Effective workshops require an important and common problem that the partner\u0026rsquo;s solution will solve. What is the problem?\n"
+	"content": " Business Problem to Solve  79% of surveyed organizations indicate that managing cloud spend is a challenge and that 30% of spend is wasted. ​ 80% of organizations overshoot their cloud IaaS budgets, 50% accidentally expose data or services, and 47% do not continuously optimize cloud workloads (source: Gartner).​ 81% of organizations indicate cloud security is a primary challenge, with 95% of issues stemming from misconfigurations (source: Gartner), and 75% from inefficient cloud operations.​  The challenges across FinOps, SecOps, and CloudOps are substantial and can become a serious risk if left unmitigated. Most “solutions” being utilized (for example, home-grown tools or spreadsheets and manual processes) simply fail to address these challenges.\nFinOps Challenges​\n Cost Visibility and Reports​\n Inability to view cost details for projects, clouds, accounts, region, environment and resources​ Inability to understand cost drivers, cost insights and cost anomalies​  Cost Allocation​\n Lack of resource consistency and accountability​ Inability to charge to appropriate cost centers​  Cost Optimization​\n Inability to view resource utilization to identify areas of optimization​  Budget Forecasting​\n Inability to track budgets accurately ​ Inability to point to trends due to lack of cost drivers   SecOps Challenges​\n Unified Visibility ​\n Lack of visibility into security threats, attacks and vulnerability data ​ Inability to view security posture across multiple clouds​  Remediation Suggestions​\n Inability to remediate security violations​ Slowed response time due to manual follow ups​  Compliance Assessment​\n Inability to assess cloud infrastructure against industry standards, regulations and best practices such as HIPAA, PCI-DSS, NIST, ISO, AWS WAF etc.​  Incident Ticketing Workflow​\n Inability to route incidents to ITSM tools such as ServiceNow seamlessly   CloudOps Challenges​\n Autonomous Monitoring​\n Lack of autonomous monitoring affecting service availability and fault tolerance​ Missed SLAs due to inability to act expeditiously​  Infrastructure Fulfillment​\n Inability to provision resources with ease​ Inability to execute post-provisioning activities ​  Operations Visibility​\n Inability to view activities across multiple clouds​ Lack of insights into anomalies ​  Incident Ticketing Workflow​\n Lack of 3rd party tool integrations for incident management​ Inability to route incidents to ITSM tools such as ServiceNow seamlessly   "
 },
 {
 	"uri": "/ee/020_event_engine_setup/24_attach_iam_role.html",
@@ -57,10 +57,10 @@
 },
 {
 	"uri": "/ee/010_introduction/14_partner.html",
-	"title": "Who is this partner?",
+	"title": "What is CoreStack",
 	"tags": [],
 	"description": "",
-	"content": " What is {insert partner name}? How did the Partner come to be? What\u0026rsquo;s the history of the industry, and how did they get started?\n"
+	"content": " What is CoreStack? CoreStack empowers enterprises to unleash the power of cloud on their terms by helping them rapidly achieve continuous and autonomous cloud governance at scale. CoreStack enables enterprises to realize:​\n"
 },
 {
 	"uri": "/ee/020_event_engine_setup/26_config_workshop_req.html",
@@ -74,7 +74,7 @@
 	"title": "Workshop Next Steps",
 	"tags": [],
 	"description": "",
-	"content": " Workshop Prerequisites There are a few prerequisite tasks you must perform before getting started on this workshop. These are:\n Access to an AWS account w/ proper permissions A Cloud9 IDE Workspace Sign-up for partner\u0026rsquo;s free trial to use solution (if necessary)  In the next section, there will be instructions on how to set everything up, step by step.\n "
+	"content": " Workshop Prerequisites There are a few prerequisite tasks you must perform before getting started on this workshop. These are:​\n Access to an AWS account with proper permissions​ Sign-up for a CoreStack trial account​ Access to GitHub and writes to run a CFT or Terraform Template​  In the next section, you will be instructed on how to configure all the prerequisite tasks stated above.\n "
 },
 {
 	"uri": "/ee/categories.html",

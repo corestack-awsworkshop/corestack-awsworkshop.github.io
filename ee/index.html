@@ -9,24 +9,24 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>AWS Modernization Workshop :: Event Engine</title>
+    <title>Introduction :: Event Engine</title>
 
     
-    <link href="/css/nucleus.css?1627368433" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1627368433" rel="stylesheet">
-    <link href="/css/hybrid.css?1627368433" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1627368433" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1627368433" rel="stylesheet">
-    <link href="/css/auto-complete.css?1627368433" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1627368433" rel="stylesheet">
-    <link href="/css/theme.css?1627368433" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1627368433" rel="stylesheet">
+    <link href="/css/nucleus.css?1627387229" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1627387229" rel="stylesheet">
+    <link href="/css/hybrid.css?1627387229" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1627387229" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1627387229" rel="stylesheet">
+    <link href="/css/auto-complete.css?1627387229" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1627387229" rel="stylesheet">
+    <link href="/css/theme.css?1627387229" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1627387229" rel="stylesheet">
     
-    <link href="/css/theme-mine.css?1627368433" rel="stylesheet">
+    <link href="/css/theme-mine.css?1627387229" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1627368433"></script>
+    <script src="/js/jquery-3.3.1.min.js?1627387229"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -78,14 +78,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1627368433"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1627368433"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1627387229"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1627387229"></script>
 <script type="text/javascript">
     
         var baseurl = "\/\/ee";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1627368433"></script>
+<script type="text/javascript" src="/js/search.js?1627387229"></script>
 
     
   </div>
@@ -162,9 +162,9 @@
  
   
     
-      <li data-nav-id="/ee/010_introduction/12_problem_to_solve.html" title="The Technical Challenge/Problem" class="dd-item ">
+      <li data-nav-id="/ee/010_introduction/12_problem_to_solve.html" title="Business Problem to Solve" class="dd-item ">
         <a href="/ee/010_introduction/12_problem_to_solve.html">
-        The Technical Challenge/Problem
+        Business Problem to Solve
         <i class="fas fa-check read-icon"></i>
         </a>
     </li>
@@ -183,9 +183,9 @@
  
   
     
-      <li data-nav-id="/ee/010_introduction/14_partner.html" title="Who is this partner?" class="dd-item ">
+      <li data-nav-id="/ee/010_introduction/14_partner.html" title="What is CoreStack" class="dd-item ">
         <a href="/ee/010_introduction/14_partner.html">
-        Who is this partner?
+        What is CoreStack
         <i class="fas fa-check read-icon"></i>
         </a>
     </li>
@@ -475,15 +475,41 @@
  
 
 
-<h1 id="aws-marketplace-devops-workshop-series-hands-on-lab-with-partner">AWS Marketplace DevOps Workshop Series Hands-on Lab with Partner</h1>
+<h1 id="learning-objectives">Learning Objectives</h1>
 
-<h3 id="welcome">Welcome</h3>
+<p>Today we are going to learn the following topics:</p>
 
-<p>This hands-on lab is part of the AWS Marketplace DevOps Workshop Series. In this lab, you will gain experience using Partner to deploy an application to AWS EKS. Partner is a self-service CI/CD platform that allows engineers and DevOps team to build, test, deploy, and verify software, on-demand. By completing this lab you will learn how to leverage Partner for easier deployments of your applications.</p>
+<ul>
+<li>How to deploy a sample CoreStack instance to your AWS environment:​
 
-<p>Partner is available in AWS Marketplace. AWS Marketplace is a digital software catalog that makes it easy to find, try, buy, deploy, and manage software that runs on AWS. AWS Marketplace has a broad and deep selection of ISV solutions that can help you build your ideal DevOps toolchain in the cloud.</p>
+<ul>
+<li>Onboard cloud account(s)​</li>
+<li>Apply templates and enable guardrails to run policy checks​</li>
+</ul></li>
+<li>Learn about the benefits of the CoreStack solution in the following areas:​
 
-<p><a href="https://aws.amazon.com/marketplace/pp/B07PZY3369?&trk=el_a134p000003yrYeAAI&trkCampaign=AWSMP_pdp_dev_x_dg&sc_channel=el&sc_campaign=el_awsmp_mult&sc_outcome=Marketplace" target="_blank"><img src="/images/setup/available-in-awsmp-badge.png"></a></p>
+<ul>
+<li><strong>FinOps:</strong> Optimized &amp; Managed Cloud Spend​</li>
+<li><strong>SecOps:</strong> Assured Security &amp; Compliance​</li>
+<li><strong>CloudOps:</strong> Streamlined &amp; Automated Operations</li>
+</ul></li>
+</ul>
+
+<h1 id="workshop-structure">Workshop Structure</h1>
+
+<p>This workshop is broken into the sections list below. Estimated time for completing the workshop is 2.5 hours.​</p>
+
+<ul>
+<li><strong>Prerequisites</strong> <strong><em>(30 minutes)</em></strong> Access to an AWS account with proper permissions and sign-up for a CoreStack trial account​</li>
+<li><strong>Setup</strong> <strong><em>(30 minutes)</em></strong> Install necessary tooling to complete the lab and deploy CoreStack​</li>
+<li><strong>Workshop Exercises</strong> <strong><em>(90 minutes)</em></strong>
+
+<ul>
+<li><strong><em>Provisioning of VM using CFN/Terraform</em></strong></li>
+<li><strong><em>Provisioning a DB using CFN/Terraform​</em></strong></li>
+<li><strong><em>Provisioning a Container using CFN/Terraform</em></strong></li>
+</ul></li>
+</ul>
 	
   
         
@@ -697,19 +723,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1627368433"></script>
-    <script src="/js/perfect-scrollbar.min.js?1627368433"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1627368433"></script>
-    <script src="/js/jquery.sticky.js?1627368433"></script>
-    <script src="/js/featherlight.min.js?1627368433"></script>
-    <script src="/js/highlight.pack.js?1627368433"></script>
+    <script src="/js/clipboard.min.js?1627387229"></script>
+    <script src="/js/perfect-scrollbar.min.js?1627387229"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1627387229"></script>
+    <script src="/js/jquery.sticky.js?1627387229"></script>
+    <script src="/js/featherlight.min.js?1627387229"></script>
+    <script src="/js/highlight.pack.js?1627387229"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1627368433"></script>
-    <script src="/js/learn.js?1627368433"></script>
-    <script src="/js/hugo-learn.js?1627368433"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1627387229"></script>
+    <script src="/js/learn.js?1627387229"></script>
+    <script src="/js/hugo-learn.js?1627387229"></script>
     
         
-            <script src="/mermaid/mermaid.js?1627368433"></script>
+            <script src="/mermaid/mermaid.js?1627387229"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });
