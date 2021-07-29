@@ -12,66 +12,11 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/050_corestack_lab/50_onboard_aws_account.html</guid>
-      <description>Onboarding an AWS account using CFN template for role creation ​  Please use the link below when created the CFT.​
-https://corestack-cfn.s3.amazonaws.com/AWS_Create_IAM_Role_For_CorestackAssessmentandGovernance_content.json​</description>
+      <description>Onboarding an AWS account using CFN template for role creation ​  Please go to the CoreStack Dashboard. Login with the email and password you used to sign up! There should be a confirmation email sent with your login information. Your greeting page should look like this:  Click the GET STARTED button and choose AWS as the public cloud on the next page  Click the Assessment + Governance option, Linked Account option, AWS Standard option, and the AssumeRole authentication option.</description>
     </item>
     
     <item>
-      <title>2. Infra as code – use cases</title>
-      <link>/050_corestack_lab/50_infra_as_code.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/050_corestack_lab/50_infra_as_code.html</guid>
-      <description> Infra as code – use cases Provisioning of VM using CFN / Terraform
- CFN Template - https://raw.githubusercontent.com/corestacklabs/Templates/master/cfn/AWS_EC2_Instance_With_SecurityGroup/AWS_EC2_Instance_With_SecurityGroup.yml  Provisioning a DB using CFN / Terraform
- CFN Template - https://raw.githubusercontent.com/corestacklabs/Templates/master/cfn/AWS_Provision_DynamoDB_Table/AWS_Dynamo_DB_Provision.yml  Provisioning a Container using CFN / Terraform
- CFN Template - https://raw.githubusercontent.com/corestacklabs/Templates/master/cfn/AWS_Provision_EKS_Cluster/AWS_Provision_EKS_Cluster.yml  </description>
-    </item>
-    
-    <item>
-      <title>2. Infra as code – use cases​​</title>
-      <link>/050_corestack_lab/51_infra_as_code.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/050_corestack_lab/51_infra_as_code.html</guid>
-      <description>Infra as code – use cases​ Provisioning of VM using CFN / Terraform​
- CFN Template - https://raw.githubusercontent.com/corestacklabs/Templates/master/cfn/AWS_EC2_Instance_With_SecurityGroup/AWS_EC2_Instance_With_SecurityGroup.yml  Provisioning a DB using CFN / Terraform​
- CFN Template - https://raw.githubusercontent.com/corestacklabs/Templates/master/cfn/AWS_Provision_DynamoDB_Table/AWS_Dynamo_DB_Provision.yml  Provisioning a Container using CFN / Terraform​
- CFN Template - https://raw.githubusercontent.com/corestacklabs/Templates/master/cfn/AWS_Provision_EKS_Cluster/AWS_Provision_EKS_Cluster.yml  ​</description>
-    </item>
-    
-    <item>
-      <title>3. Validation of the Infra provisioned against AWS Well Architected Framework (WAF)</title>
-      <link>/050_corestack_lab/54_well-architected_validation.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/050_corestack_lab/54_well-architected_validation.html</guid>
-      <description>Validation of the Infra provisioned against AWS Well Architected Framework (WAF) Execute some policies to validate certain AWS-WAF Controls in the resources provisioned
- CoreStack has support for a growing list of Industry specific Regulatory Compliance standard and Industry benchmark standards necessary for modern corporations in various sectors. CoreStack is committed in bringing industry leading technology in cloud governance with the ease of use unrivaled in today’s complicated tech landscape.</description>
-    </item>
-    
-    <item>
-      <title>3. Validation of the Infra provisioned against AWS Well Architected Framework (WAF)​</title>
-      <link>/050_corestack_lab/54_waf_validation.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/050_corestack_lab/54_waf_validation.html</guid>
-      <description>Validation of the Infra provisioned against AWS Well Architected Framework (WAF)​ Execute some policies to validate certain AWS-WAF Controls in the resources provisioned
- CoreStack has support for a growing list of Industry specific Regulatory Compliance standard and Industry benchmark standards necessary for modern corporations in various sectors. CoreStack is committed in bringing industry leading technology in cloud governance with the ease of use unrivaled in today’s complicated tech landscape.</description>
-    </item>
-    
-    <item>
-      <title>4. Execute templates/scripts that will remediate the violation </title>
-      <link>/050_corestack_lab/55_remediate_violation.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/050_corestack_lab/55_remediate_violation.html</guid>
-      <description>Execute templates/scripts that will remediate the violation Script is a single or multiple file that contains a sequence of commands a program that are used for automation. CoreStack™ supports commonly used automation tools such as Chef, Ansible, Puppet and Shell (Bash and PowerShell).
-CoreStack™ provides a wide range of pre-defined scripts which can help in realizing multiple use cases. These are pre-loaded for all subscriptions and are FREE to be executed on-demand or scheduled.</description>
-    </item>
-    
-    <item>
-      <title>CoreStack Templates</title>
+      <title>2. CoreStack Templates</title>
       <link>/050_corestack_lab/35_create_apply_templates.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -82,14 +27,43 @@ Lists all template executions of the current tenant. A sample screenshot is show
     </item>
     
     <item>
-      <title>What are CoreStack Template Actions?</title>
-      <link>/050_corestack_lab/36_template_actions.html</link>
+      <title>3. Infra as code – use cases</title>
+      <link>/050_corestack_lab/50_infra_as_code.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/050_corestack_lab/36_template_actions.html</guid>
-      <description>Additional workshop specific requirements Template Actions
- Template actions will be shown to every template listed when you are hovering mouse on a template. The list of actions depends on the scope of the template (Marketplace, My Templates) and the RBAC access for templates that user has.
-Execute – Executes the template immediately and redirects to “Job history” where you can see the status and output of the execution.</description>
+      <guid>/050_corestack_lab/50_infra_as_code.html</guid>
+      <description>Infra as code – use cases Provisioning of VM using CFN / Terraform CFN Template Source
+Provisioning a DB using CFN / Terraform CFN Template Source
+Provisioning a Container using CFN / Terraform CFN Template Source</description>
+    </item>
+    
+    <item>
+      <title>4. Validation of the Infra provisioned against AWS Well Architected Framework</title>
+      <link>/050_corestack_lab/54_well-architected_validation.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/050_corestack_lab/54_well-architected_validation.html</guid>
+      <description>Validation of the Infra provisioned against AWS Well Architected Framework Execute some policies to validate certain AWS Well Architected Framework Controls in the resources provisioned
+ CoreStack has support for a growing list of Industry specific Regulatory Compliance standard and Industry benchmark standards necessary for modern corporations in various sectors. CoreStack is committed in bringing industry leading technology in cloud governance with the ease of use unrivaled in today’s complicated tech landscape.</description>
+    </item>
+    
+    <item>
+      <title>5. Execute templates/scripts that will remediate the violation </title>
+      <link>/050_corestack_lab/55_remediate_violation.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/050_corestack_lab/55_remediate_violation.html</guid>
+      <description>Execute templates/scripts that will remediate the violation Script is a single or multiple file that contains a sequence of commands a program that are used for automation. CoreStack™ supports commonly used automation tools such as Chef, Ansible, Puppet and Shell (Bash and PowerShell).
+CoreStack™ provides a wide range of pre-defined scripts which can help in realizing multiple use cases. These are pre-loaded for all subscriptions and are FREE to be executed on-demand or scheduled.</description>
+    </item>
+    
+    <item>
+      <title>Conclusion</title>
+      <link>/050_corestack_lab/56_conclusion.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/050_corestack_lab/56_conclusion.html</guid>
+      <description>Coming soon&amp;hellip;.Beginning of September for *Auto-remediation*</description>
     </item>
     
   </channel>

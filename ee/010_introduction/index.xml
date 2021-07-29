@@ -12,8 +12,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/ee/010_introduction/10_foreword.html</guid>
-      <description>How did we get here? The cloud lies at the heart of any enterprise digital transformation initiative, but there are numerous challenges with cloud adoption:​
- Unabated &amp;amp; Wasted Cloud Costs​ Security &amp;amp; Compliance Issues​ Cloud Operational Complexities​  With 92% of enterprises operating from a multi-cloud strategy, with an average of 2.6 public clouds, today’s organization often find themselves overshooting cloud budgets, accidentally exposing data or services and not continuously optimizing cloud workloads.</description>
+      <description>How did we get here? The cloud lies at the heart of any enterprise digital transformation initiative, but there are numerous challenges with cloud adoption:
+ Unabated &amp;amp; Wasted Cloud Costs Security &amp;amp; Compliance Issues Cloud Operational Complexities  With 92% of enterprises operating from a multi-cloud strategy, with an average of 2.6 public clouds, today’s organization often find themselves overshooting cloud budgets, accidentally exposing data or services and not continuously optimizing cloud workloads.</description>
     </item>
     
     <item>
@@ -35,14 +35,22 @@
     </item>
     
     <item>
+      <title>Well Architected Framework: Continuous Governance</title>
+      <link>/ee/010_introduction/18_waf.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/ee/010_introduction/18_waf.html</guid>
+      <description> Well Architected Framework: Continuous Governance  </description>
+    </item>
+    
+    <item>
       <title>Workshop Next Steps</title>
       <link>/ee/010_introduction/16_workshop_next_step.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/ee/010_introduction/16_workshop_next_step.html</guid>
-      <description> Workshop Prerequisites There are a few prerequisite tasks you must perform before getting started on this workshop. These are:​
- Access to an AWS account with proper permissions​ Sign-up for a CoreStack trial account​ Access to GitHub and writes to run a CFT or Terraform Template​  In the next section, you will be instructed on how to configure all the prerequisite tasks stated above.
- </description>
+      <description>Workshop Prerequisites There are a few prerequisite tasks you must perform before getting started on this workshop. These are:​
+ Access to an AWS account with proper permissions​ Sign-up for a CoreStack trial account​ Access to GitHub and writes to run a CFT or Terraform Template​  In the next section, you will be instructed on how to configure all the prerequisite tasks stated above.</description>
     </item>
     
   </channel>

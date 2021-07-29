@@ -34,7 +34,7 @@
   </url><url>
     <loc>/030_self_guided_setup/30_aws_setup_your_own.html</loc>
   </url><url>
-    <loc>/040_corestack_setup/40_aws_setup_your_own.html</loc>
+    <loc>/040_corestack_setup/40_corestack_setup_onboarding.html</loc>
   </url><url>
     <loc>/050_corestack_lab/50_onboard_aws_account.html</loc>
   </url><url>
@@ -52,11 +52,9 @@
   </url><url>
     <loc>/030_self_guided_setup/31_corestack_mp_trial.html</loc>
   </url><url>
+    <loc>/050_corestack_lab/35_create_apply_templates.html</loc>
+  </url><url>
     <loc>/050_corestack_lab/50_infra_as_code.html</loc>
-  </url><url>
-    <loc>/050_corestack_lab/51_infra_as_code.html</loc>
-  </url><url>
-    <loc>/040_corestack_setup/41_corestack_mp_trial.html</loc>
   </url><url>
     <loc>/030_self_guided_setup/32_request_credit.html</loc>
   </url><url>
@@ -72,13 +70,7 @@
                 href="/010_introduction/12_problem_to_solve.html"
                 />
   </url><url>
-    <loc>/040_corestack_setup/44_start_corestackinstance.html</loc>
-  </url><url>
     <loc>/050_corestack_lab/54_well-architected_validation.html</loc>
-  </url><url>
-    <loc>/050_corestack_lab/54_waf_validation.html</loc>
-  </url><url>
-    <loc>/030_self_guided_setup/34_start_corestackinstance.html</loc>
   </url><url>
     <loc>/010_introduction/14_partner.html</loc>
     <xhtml:link
@@ -92,15 +84,23 @@
                 href="/010_introduction/14_partner.html"
                 />
   </url><url>
-    <loc>/040_corestack_setup/42_create_apply_templates.html</loc>
+    <loc>/040_corestack_setup/42_post_onboarding.html</loc>
   </url><url>
     <loc>/050_corestack_lab/55_remediate_violation.html</loc>
   </url><url>
-    <loc>/040_corestack_setup/45_create_apply_templates.html</loc>
+    <loc>/050_corestack_lab/56_conclusion.html</loc>
   </url><url>
-    <loc>/030_self_guided_setup/35_create_apply_templates.html</loc>
-  </url><url>
-    <loc>/050_corestack_lab/35_create_apply_templates.html</loc>
+    <loc>/010_introduction/18_waf.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ee"
+                href="/ee/010_introduction/18_waf.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="oyo"
+                href="/010_introduction/18_waf.html"
+                />
   </url><url>
     <loc>/010_introduction/16_workshop_next_step.html</loc>
     <xhtml:link
@@ -113,10 +113,6 @@
                 hreflang="oyo"
                 href="/010_introduction/16_workshop_next_step.html"
                 />
-  </url><url>
-    <loc>/030_self_guided_setup/36_config_workshop_req.html</loc>
-  </url><url>
-    <loc>/050_corestack_lab/36_template_actions.html</loc>
   </url><url>
     <loc>/090_cleanup.html</loc>
   </url><url>

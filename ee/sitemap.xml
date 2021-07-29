@@ -70,6 +70,18 @@
                 href="/ee/010_introduction/14_partner.html"
                 />
   </url><url>
+    <loc>/ee/010_introduction/18_waf.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="oyo"
+                href="/010_introduction/18_waf.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ee"
+                href="/ee/010_introduction/18_waf.html"
+                />
+  </url><url>
     <loc>/ee/020_event_engine_setup/26_config_workshop_req.html</loc>
   </url><url>
     <loc>/ee/010_introduction/16_workshop_next_step.html</loc>

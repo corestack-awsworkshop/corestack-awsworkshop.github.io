@@ -32,7 +32,7 @@
 	"title": "Foreword",
 	"tags": [],
 	"description": "",
-	"content": " How did we get here? The cloud lies at the heart of any enterprise digital transformation initiative, but there are numerous challenges with cloud adoption:​\n Unabated \u0026amp; Wasted Cloud Costs​ Security \u0026amp; Compliance Issues​ Cloud Operational Complexities​  With 92% of enterprises operating from a multi-cloud strategy, with an average of 2.6 public clouds, today’s organization often find themselves overshooting cloud budgets, accidentally exposing data or services and not continuously optimizing cloud workloads.\n"
+	"content": " How did we get here? The cloud lies at the heart of any enterprise digital transformation initiative, but there are numerous challenges with cloud adoption:\n Unabated \u0026amp; Wasted Cloud Costs Security \u0026amp; Compliance Issues Cloud Operational Complexities  With 92% of enterprises operating from a multi-cloud strategy, with an average of 2.6 public clouds, today’s organization often find themselves overshooting cloud budgets, accidentally exposing data or services and not continuously optimizing cloud workloads.\nCoreStack is a next-generation multi-cloud governance platform that empowers enterprises to rapidly achieve autonomous and continuous cloud governance and compliance at scale. CoreStack is used today by many leading global enterprises across multiple industries.\nGoverning your cloud assets involves cost-efficientand effective management of resources in a cloud environment while adhering tosecurity and compliance standards. There are several factors involved in asuccessful implementation of cloud governance.CoreStack has encompassed all these factors into its cloud governance pillars.The following table explains the key cloud governance pillars developed by CoreStack.\n"
 },
 {
 	"uri": "/ee/020_event_engine_setup/22_start_cloud9workspace.html",
@@ -63,6 +63,13 @@
 	"content": " What is CoreStack? CoreStack empowers enterprises to unleash the power of cloud on their terms by helping them rapidly achieve continuous and autonomous cloud governance at scale. CoreStack enables enterprises to realize:​\n"
 },
 {
+	"uri": "/ee/010_introduction/18_waf.html",
+	"title": "Well Architected Framework: Continuous Governance",
+	"tags": [],
+	"description": "",
+	"content": " Well Architected Framework: Continuous Governance  "
+},
+{
 	"uri": "/ee/020_event_engine_setup/26_config_workshop_req.html",
 	"title": "4. Configure workshop specific requirements",
 	"tags": [],
@@ -74,7 +81,7 @@
 	"title": "Workshop Next Steps",
 	"tags": [],
 	"description": "",
-	"content": " Workshop Prerequisites There are a few prerequisite tasks you must perform before getting started on this workshop. These are:​\n Access to an AWS account with proper permissions​ Sign-up for a CoreStack trial account​ Access to GitHub and writes to run a CFT or Terraform Template​  In the next section, you will be instructed on how to configure all the prerequisite tasks stated above.\n "
+	"content": " Workshop Prerequisites There are a few prerequisite tasks you must perform before getting started on this workshop. These are:​\n Access to an AWS account with proper permissions​ Sign-up for a CoreStack trial account​ Access to GitHub and writes to run a CFT or Terraform Template​  In the next section, you will be instructed on how to configure all the prerequisite tasks stated above.\n"
 },
 {
 	"uri": "/ee/categories.html",

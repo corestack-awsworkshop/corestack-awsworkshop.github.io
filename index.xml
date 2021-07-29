@@ -19,11 +19,11 @@
     
     <item>
       <title>1. CoreStack Account Setup</title>
-      <link>/040_corestack_setup/40_aws_setup_your_own.html</link>
+      <link>/040_corestack_setup/40_corestack_setup_onboarding.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/040_corestack_setup/40_aws_setup_your_own.html</guid>
-      <description>CoreStack Account Setup Please go to the CoreStack Dashboard. Login with the email and password you used to sign up! There should be a confirmation email sent with your login information. Your greeting page should look like this:  Click the GET STARTED button and choose AWS as the public cloud on the next page  Click the Assessment + Governance option, Linked Account option, AWS Standard option, and the AssumeRole authentication option.</description>
+      <guid>/040_corestack_setup/40_corestack_setup_onboarding.html</guid>
+      <description>CoreStack Account Setup (Onboarding) Please go to the CoreStack Dashboard. Login with the email and password you used to sign up! There should be a confirmation email sent with your login information. Your greeting page should look like this:  Click the GET STARTED button and choose AWS as the public cloud on the next page  Click the Assessment + Governance option, Linked Account option, AWS Standard option, and the AssumeRole authentication option.</description>
     </item>
     
     <item>
@@ -32,8 +32,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/050_corestack_lab/50_onboard_aws_account.html</guid>
-      <description>Onboarding an AWS account using CFN template for role creation ​  Please use the link below when created the CFT.​
-https://corestack-cfn.s3.amazonaws.com/AWS_Create_IAM_Role_For_CorestackAssessmentandGovernance_content.json​</description>
+      <description>Onboarding an AWS account using CFN template for role creation ​  Please go to the CoreStack Dashboard. Login with the email and password you used to sign up! There should be a confirmation email sent with your login information. Your greeting page should look like this:  Click the GET STARTED button and choose AWS as the public cloud on the next page  Click the Assessment + Governance option, Linked Account option, AWS Standard option, and the AssumeRole authentication option.</description>
     </item>
     
     <item>
@@ -43,7 +42,10 @@ https://corestack-cfn.s3.amazonaws.com/AWS_Create_IAM_Role_For_CorestackAssessme
       
       <guid>/010_introduction/10_foreword.html</guid>
       <description>How did we get here? The cloud lies at the heart of any enterprise digital transformation initiative, but there are numerous challenges with cloud adoption:
- Unabated &amp;amp; Wasted Cloud Costs Security &amp;amp; Compliance Issues Cloud Operational Complexities  With 92% of enterprises operating from a multi-cloud strategy, with an average of 2.6 public clouds, today’s organization often find themselves overshooting cloud budgets, accidentally exposing data or services and not continuously optimizing cloud workloads.</description>
+ Unabated &amp;amp; Wasted Cloud Costs
+Security &amp;amp; Compliance Issues
+Cloud Operational Complexities
+ With 92% of enterprises operating from a multi-cloud strategy, with an average of 2.6 public clouds, today’s organization often find themselves overshooting cloud budgets, accidentally exposing data or services and not continuously optimizing cloud workloads.</description>
     </item>
     
     <item>
@@ -56,38 +58,25 @@ https://corestack-cfn.s3.amazonaws.com/AWS_Create_IAM_Role_For_CorestackAssessme
     </item>
     
     <item>
-      <title>2. Infra as code – use cases</title>
+      <title>2. CoreStack Templates</title>
+      <link>/050_corestack_lab/35_create_apply_templates.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/050_corestack_lab/35_create_apply_templates.html</guid>
+      <description>Create and apply templates CoreStack™ also provides the option for users to upload their own templates and use them to execute against their service accounts. Follow the steps given below: Use the ‘+’ button next to the ‘Search’ bar at top right.
+Template create window will have 3 sections as follows: Properties, Content and Metadata.
+Lists all template executions of the current tenant. A sample screenshot is shown below. The tabs at the top right represents the archive status of jobs.</description>
+    </item>
+    
+    <item>
+      <title>3. Infra as code – use cases</title>
       <link>/050_corestack_lab/50_infra_as_code.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/050_corestack_lab/50_infra_as_code.html</guid>
-      <description> Infra as code – use cases Provisioning of VM using CFN / Terraform
- CFN Template - https://raw.githubusercontent.com/corestacklabs/Templates/master/cfn/AWS_EC2_Instance_With_SecurityGroup/AWS_EC2_Instance_With_SecurityGroup.yml  Provisioning a DB using CFN / Terraform
- CFN Template - https://raw.githubusercontent.com/corestacklabs/Templates/master/cfn/AWS_Provision_DynamoDB_Table/AWS_Dynamo_DB_Provision.yml  Provisioning a Container using CFN / Terraform
- CFN Template - https://raw.githubusercontent.com/corestacklabs/Templates/master/cfn/AWS_Provision_EKS_Cluster/AWS_Provision_EKS_Cluster.yml  </description>
-    </item>
-    
-    <item>
-      <title>2. Infra as code – use cases​​</title>
-      <link>/050_corestack_lab/51_infra_as_code.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/050_corestack_lab/51_infra_as_code.html</guid>
-      <description>Infra as code – use cases​ Provisioning of VM using CFN / Terraform​
- CFN Template - https://raw.githubusercontent.com/corestacklabs/Templates/master/cfn/AWS_EC2_Instance_With_SecurityGroup/AWS_EC2_Instance_With_SecurityGroup.yml  Provisioning a DB using CFN / Terraform​
- CFN Template - https://raw.githubusercontent.com/corestacklabs/Templates/master/cfn/AWS_Provision_DynamoDB_Table/AWS_Dynamo_DB_Provision.yml  Provisioning a Container using CFN / Terraform​
- CFN Template - https://raw.githubusercontent.com/corestacklabs/Templates/master/cfn/AWS_Provision_EKS_Cluster/AWS_Provision_EKS_Cluster.yml  ​</description>
-    </item>
-    
-    <item>
-      <title>2. Pre-Onboarding (Prepare your Cloud Accounts) ​</title>
-      <link>/040_corestack_setup/41_corestack_mp_trial.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/040_corestack_setup/41_corestack_mp_trial.html</guid>
-      <description>Pre-Onboarding (Prepare your Cloud Accounts) ​ You will need to set up the right access permissions to your cloud accounts for CoreStack. ​
-For AWS accounts, you will need to create an IAM Role for CoreStack, with necessary access permissions based on your preference for Assessment-Only or Assessment + Governance to be performed for that account. (https://corestack-cfn.s3.amazonaws.com/AWS_Create_IAM_Role_For_CorestackAssessmentandGovernance_content.json)​
-CoreStack provides ready-made templates that can be used for this purpose which have appropriate access permissions built-in as part of the templates.</description>
+      <description>Infra as code – use cases Provisioning of VM using CFN / Terraform CFN Template Source
+Provisioning a DB using CFN / Terraform CFN Template Source
+Provisioning a Container using CFN / Terraform CFN Template Source</description>
     </item>
     
     <item>
@@ -109,49 +98,13 @@ CoreStack provides ready-made templates that can be used for this purpose which 
     </item>
     
     <item>
-      <title>3. On-boarding (Add your Cloud Accounts to CoreStack)</title>
-      <link>/040_corestack_setup/44_start_corestackinstance.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/040_corestack_setup/44_start_corestackinstance.html</guid>
-      <description>On-boarding (Add your Cloud Accounts to CoreStack) ​ It only takes about five minutes to on-board your cloud account into CoreStack, provided the pre-requisites are taken care of.
-You can follow the simple guided workflow for the onboarding process in CoreStack. Please ensure to keep handy the relevant info such as the IAM Role, App ID, Secret Key etc. when you onboard the accounts. ​ ​
-From the Account Governance Dashboard, click on “Add New” and get started.</description>
-    </item>
-    
-    <item>
-      <title>3. Validation of the Infra provisioned against AWS Well Architected Framework (WAF)</title>
+      <title>4. Validation of the Infra provisioned against AWS Well Architected Framework</title>
       <link>/050_corestack_lab/54_well-architected_validation.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/050_corestack_lab/54_well-architected_validation.html</guid>
-      <description>Validation of the Infra provisioned against AWS Well Architected Framework (WAF) Execute some policies to validate certain AWS-WAF Controls in the resources provisioned
+      <description>Validation of the Infra provisioned against AWS Well Architected Framework Execute some policies to validate certain AWS Well Architected Framework Controls in the resources provisioned
  CoreStack has support for a growing list of Industry specific Regulatory Compliance standard and Industry benchmark standards necessary for modern corporations in various sectors. CoreStack is committed in bringing industry leading technology in cloud governance with the ease of use unrivaled in today’s complicated tech landscape.</description>
-    </item>
-    
-    <item>
-      <title>3. Validation of the Infra provisioned against AWS Well Architected Framework (WAF)​</title>
-      <link>/050_corestack_lab/54_waf_validation.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/050_corestack_lab/54_waf_validation.html</guid>
-      <description>Validation of the Infra provisioned against AWS Well Architected Framework (WAF)​ Execute some policies to validate certain AWS-WAF Controls in the resources provisioned
- CoreStack has support for a growing list of Industry specific Regulatory Compliance standard and Industry benchmark standards necessary for modern corporations in various sectors. CoreStack is committed in bringing industry leading technology in cloud governance with the ease of use unrivaled in today’s complicated tech landscape.</description>
-    </item>
-    
-    <item>
-      <title>4. Setting up an instance</title>
-      <link>/030_self_guided_setup/34_start_corestackinstance.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/030_self_guided_setup/34_start_corestackinstance.html</guid>
-      <description>Setting up an instance Given below are the steps involved in setting up CoreStack ECG for assessment and observability of your multi-cloud infrastructure. ​
-1 . Set-up CoreStack Account​
-2 . Pre-Onboarding (Prepare your Cloud Accounts)​
-3 . On-boarding (Add your Cloud Accounts to CoreStack)​
-4 . Post-Onboarding (Validate your Cloud Accounts &amp;amp; Configurations)​
-5 . Visibility – View Dashboards on OSCAR Posture​
-6 . Assessment – Get your Governance Assessment Score!</description>
     </item>
     
     <item>
@@ -165,17 +118,17 @@ From the Account Governance Dashboard, click on “Add New” and get started.</
     
     <item>
       <title>2. Post-Onboarding</title>
-      <link>/040_corestack_setup/42_create_apply_templates.html</link>
+      <link>/040_corestack_setup/42_post_onboarding.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/040_corestack_setup/42_create_apply_templates.html</guid>
+      <guid>/040_corestack_setup/42_post_onboarding.html</guid>
       <description>Post-Onboarding Once you have completed adding your cloud accounts into CoreStack, you can see them listed as part of the Account Summary Dashboard.
 From the Account Governance Dashboard, select the cloud account you want to review, and click on “View Settings”. Click on the Assessment Validation tab on the left-hand side. You&amp;rsquo;ll see this:
 Click the RE-VALIDATE button to re-assess the infrastructure in your account. Feel free to play around and check out the other 4 pillars and see what permissions are allowed for which resources in your account!</description>
     </item>
     
     <item>
-      <title>4. Execute templates/scripts that will remediate the violation </title>
+      <title>5. Execute templates/scripts that will remediate the violation </title>
       <link>/050_corestack_lab/55_remediate_violation.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -185,34 +138,21 @@ CoreStack™ provides a wide range of pre-defined scripts which can help in real
     </item>
     
     <item>
-      <title>4. Post-Onboarding (Validate your Cloud Accounts &amp; Configurations)</title>
-      <link>/040_corestack_setup/45_create_apply_templates.html</link>
+      <title>Conclusion</title>
+      <link>/050_corestack_lab/56_conclusion.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/040_corestack_setup/45_create_apply_templates.html</guid>
-      <description>Post-Onboarding (Validate your Cloud Accounts &amp;amp; Configurations) Once you have completed adding your cloud accounts into CoreStack, you can see them listed as part of the Account Summary Dashboard. As a next step, you can validate if the account has been set up correctly for all five Cloud Governance Pillars (OSCAR). ​ ​
-From the Account Governance Dashboard, select the cloud account you want to review, and click on “View Settings” to see if all the access permissions are available and if there are any errors.</description>
+      <guid>/050_corestack_lab/56_conclusion.html</guid>
+      <description>Coming soon&amp;hellip;.Beginning of September for *Auto-remediation*</description>
     </item>
     
     <item>
-      <title>5. Create and apply templates</title>
-      <link>/030_self_guided_setup/35_create_apply_templates.html</link>
+      <title>Well Architected Framework: Continuous Governance</title>
+      <link>/010_introduction/18_waf.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/030_self_guided_setup/35_create_apply_templates.html</guid>
-      <description>Create and apply templates CoreStack™ also provides the option for users to upload their own templates and use them to execute against their service accounts. Follow the steps given below: Use the ‘+’ button next to the ‘Search’ bar at top right.​ ​ Template create window will have 3 sections as follows: Properties, Content and Metadata.​
-Lists all template executions of the current tenant. A sample screenshot is shown below.</description>
-    </item>
-    
-    <item>
-      <title>CoreStack Templates</title>
-      <link>/050_corestack_lab/35_create_apply_templates.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/050_corestack_lab/35_create_apply_templates.html</guid>
-      <description>Create and apply templates CoreStack™ also provides the option for users to upload their own templates and use them to execute against their service accounts. Follow the steps given below: Use the ‘+’ button next to the ‘Search’ bar at top right.
-Template create window will have 3 sections as follows: Properties, Content and Metadata.
-Lists all template executions of the current tenant. A sample screenshot is shown below. The tabs at the top right represents the archive status of jobs.</description>
+      <guid>/010_introduction/18_waf.html</guid>
+      <description> Well Architected Framework: Continuous Governance  </description>
     </item>
     
     <item>
@@ -221,31 +161,8 @@ Lists all template executions of the current tenant. A sample screenshot is show
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/010_introduction/16_workshop_next_step.html</guid>
-      <description> Workshop Prerequisites There are a few prerequisite tasks you must perform before getting started on this workshop. These are:​
- Access to an AWS account with proper permissions​ Sign-up for a CoreStack trial account​ Access to GitHub and writes to run a CFT or Terraform Template​  In the next section, you will be instructed on how to configure all the prerequisite tasks stated above.
- </description>
-    </item>
-    
-    <item>
-      <title>5. Additional workshop specific requirements</title>
-      <link>/030_self_guided_setup/36_config_workshop_req.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/030_self_guided_setup/36_config_workshop_req.html</guid>
-      <description>Additional workshop specific requirements Template Actions​
- Template actions will be shown to every template listed when you are hovering mouse on a template. The list of actions depends on the scope of the template (Marketplace, My Templates) and the RBAC access for templates that user has.​
-Execute – Executes the template immediately and redirects to “Job history” where you can see the status and output of the execution. ​</description>
-    </item>
-    
-    <item>
-      <title>What are CoreStack Template Actions?</title>
-      <link>/050_corestack_lab/36_template_actions.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/050_corestack_lab/36_template_actions.html</guid>
-      <description>Additional workshop specific requirements Template Actions
- Template actions will be shown to every template listed when you are hovering mouse on a template. The list of actions depends on the scope of the template (Marketplace, My Templates) and the RBAC access for templates that user has.
-Execute – Executes the template immediately and redirects to “Job history” where you can see the status and output of the execution.</description>
+      <description>Workshop Prerequisites There are a few prerequisite tasks you must perform before getting started on this workshop. These are:​
+ Access to an AWS account with proper permissions​ Sign-up for a CoreStack trial account​ Access to GitHub and writes to run a CFT or Terraform Template​  In the next section, you will be instructed on how to configure all the prerequisite tasks stated above.</description>
     </item>
     
   </channel>
