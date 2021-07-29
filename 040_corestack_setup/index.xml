@@ -12,8 +12,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/040_corestack_setup/40_aws_setup_your_own.html</guid>
-      <description>CoreStack Account Setup  Your CoreStack Account will be created after you have signed up for this workshop.
-Once your account is created, you will be able to login to CoreStack and get started. Login information will be shared with you via email.</description>
+      <description>CoreStack Account Setup Please go to the CoreStack Dashboard. Login with the email and password you used to sign up! There should be a confirmation email sent with your login information. Your greeting page should look like this:  Click the GET STARTED button and choose AWS as the public cloud on the next page  Click the Assessment + Governance option, Linked Account option, AWS Standard option, and the AssumeRole authentication option.</description>
     </item>
     
     <item>
@@ -36,6 +35,17 @@ CoreStack provides ready-made templates that can be used for this purpose which 
       <description>On-boarding (Add your Cloud Accounts to CoreStack) ​ It only takes about five minutes to on-board your cloud account into CoreStack, provided the pre-requisites are taken care of.
 You can follow the simple guided workflow for the onboarding process in CoreStack. Please ensure to keep handy the relevant info such as the IAM Role, App ID, Secret Key etc. when you onboard the accounts. ​ ​
 From the Account Governance Dashboard, click on “Add New” and get started.</description>
+    </item>
+    
+    <item>
+      <title>2. Post-Onboarding</title>
+      <link>/040_corestack_setup/42_create_apply_templates.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/040_corestack_setup/42_create_apply_templates.html</guid>
+      <description>Post-Onboarding Once you have completed adding your cloud accounts into CoreStack, you can see them listed as part of the Account Summary Dashboard.
+From the Account Governance Dashboard, select the cloud account you want to review, and click on “View Settings”. Click on the Assessment Validation tab on the left-hand side. You&amp;rsquo;ll see this:
+Click the RE-VALIDATE button to re-assess the infrastructure in your account. Feel free to play around and check out the other 4 pillars and see what permissions are allowed for which resources in your account!</description>
     </item>
     
     <item>

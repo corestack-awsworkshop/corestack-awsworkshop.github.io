@@ -52,6 +52,8 @@
   </url><url>
     <loc>/030_self_guided_setup/31_corestack_mp_trial.html</loc>
   </url><url>
+    <loc>/050_corestack_lab/50_infra_as_code.html</loc>
+  </url><url>
     <loc>/050_corestack_lab/51_infra_as_code.html</loc>
   </url><url>
     <loc>/040_corestack_setup/41_corestack_mp_trial.html</loc>
@@ -72,6 +74,8 @@
   </url><url>
     <loc>/040_corestack_setup/44_start_corestackinstance.html</loc>
   </url><url>
+    <loc>/050_corestack_lab/54_well-architected_validation.html</loc>
+  </url><url>
     <loc>/050_corestack_lab/54_waf_validation.html</loc>
   </url><url>
     <loc>/030_self_guided_setup/34_start_corestackinstance.html</loc>
@@ -88,11 +92,15 @@
                 href="/010_introduction/14_partner.html"
                 />
   </url><url>
+    <loc>/040_corestack_setup/42_create_apply_templates.html</loc>
+  </url><url>
     <loc>/050_corestack_lab/55_remediate_violation.html</loc>
   </url><url>
     <loc>/040_corestack_setup/45_create_apply_templates.html</loc>
   </url><url>
     <loc>/030_self_guided_setup/35_create_apply_templates.html</loc>
+  </url><url>
+    <loc>/050_corestack_lab/35_create_apply_templates.html</loc>
   </url><url>
     <loc>/010_introduction/16_workshop_next_step.html</loc>
     <xhtml:link
@@ -107,6 +115,8 @@
                 />
   </url><url>
     <loc>/030_self_guided_setup/36_config_workshop_req.html</loc>
+  </url><url>
+    <loc>/050_corestack_lab/36_template_actions.html</loc>
   </url><url>
     <loc>/090_cleanup.html</loc>
   </url><url>

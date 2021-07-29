@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>CoreStack Lab :: MP DevOps Series</title>
+    <title>2. Infra as code – use cases :: MP DevOps Series</title>
 
     
     <link href="/css/nucleus.css?1627572436" rel="stylesheet">
@@ -61,7 +61,7 @@
 <link rel="stylesheet" href="https://pages.awscloud.com/js/forms2/css/forms2.css">
 
   </head>
-  <body class="" data-url="/050_corestack_lab.html">
+  <body class="" data-url="/050_corestack_lab/50_infra_as_code.html">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -537,7 +537,7 @@
     
     <li data-nav-id="/050_corestack_lab.html" title="CoreStack Lab" class="dd-item
         parent
-        active
+        
         
         ">
       <a href="/050_corestack_lab.html">
@@ -585,7 +585,7 @@
  
   
     
-      <li data-nav-id="/050_corestack_lab/50_infra_as_code.html" title="2. Infra as code – use cases" class="dd-item ">
+      <li data-nav-id="/050_corestack_lab/50_infra_as_code.html" title="2. Infra as code – use cases" class="dd-item active">
         <a href="/050_corestack_lab/50_infra_as_code.html">
         2. Infra as code – use cases
         <i class="fas fa-check read-icon"></i>
@@ -838,7 +838,7 @@
                   
                     
                     
-                      <option id="oyo" value="/050_corestack_lab.html" selected>MP DevOps Series</option>
+                      <option id="oyo" value="/050_corestack_lab/50_infra_as_code.html" selected>MP DevOps Series</option>
                     
                   
               
@@ -905,7 +905,13 @@
             
           
           
-            <a href='/'>AWS Modernization Workshop with CoreStack</a> > CoreStack Lab
+            
+            
+          
+          
+            <a href='/'>AWS Modernization Workshop with CoreStack</a> > <a href='/050_corestack_lab.html'>CoreStack Lab</a> > 2. Infra as code – use cases
+          
+        
           
         
           
@@ -930,39 +936,29 @@
 
 
 
-	
 
-<h1 id="corestack-lab">CoreStack Lab</h1>
+<h2 id="infra-as-code-use-cases">Infra as code – use cases</h2>
 
-
-<div class="notices info" ><p>Use cases to complete in the lab</p>
-</div>
-
-
-<ol>
-<li><strong><em>Onboarding an AWS account</em></strong> using CFN template for role creation [available]</li>
-<li>Infra as code – use cases:
+<p>Provisioning of VM using CFN / Terraform</p>
 
 <ul>
-<li><strong><em>Provisioning of VM</em></strong> using CFN/Terraform</li>
-<li><strong><em>Provisioning a DB</em></strong> using CFN/Terraform</li>
-<li><strong><em>Provisioning a Container</em></strong> using CFN/Terraform</li>
-</ul></li>
-<li><strong><em>Validation</em></strong> of the Infra provisioned against <strong>AWS Well Architected Framework</strong>
+<li>CFN Template - <code>https://raw.githubusercontent.com/corestacklabs/Templates/master/cfn/AWS_EC2_Instance_With_SecurityGroup/AWS_EC2_Instance_With_SecurityGroup.yml</code></li>
+</ul>
+
+<p>Provisioning a DB using CFN / Terraform</p>
 
 <ul>
-<li><strong><em>Execute</em></strong> some <strong><em>policies</em></strong> to validate certain AWS-WAF Controls in the resources provisioned.</li>
-<li><strong><em>Remediation of the violation</em></strong></li>
-</ul></li>
-<li>Execute templates/scripts that will remediate the violation</li>
-<li>Auto-remediation configuration</li>
-</ol>
+<li>CFN Template - <code>https://raw.githubusercontent.com/corestacklabs/Templates/master/cfn/AWS_Provision_DynamoDB_Table/AWS_Dynamo_DB_Provision.yml</code></li>
+</ul>
+
+<p>Provisioning a Container using CFN / Terraform</p>
+
+<ul>
+<li>CFN Template - <code>https://raw.githubusercontent.com/corestacklabs/Templates/master/cfn/AWS_Provision_EKS_Cluster/AWS_Provision_EKS_Cluster.yml</code></li>
+</ul>
 
 
-
-
-
-<footer class=" footline" >
+<footer class="footline">
 	
 </footer>
 
@@ -1290,7 +1286,6 @@
             
                 
                     
-                    
                 
                 
 
@@ -1298,25 +1293,6 @@
                     
                     
 
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
                     
                         
             
@@ -1338,6 +1314,26 @@
             
             
                 
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
                     
                 
                 
@@ -1474,10 +1470,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="/040_corestack_setup/45_create_apply_templates.html" title="4. Post-Onboarding (Validate your Cloud Accounts &amp; Configurations)"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/050_corestack_lab/50_onboard_aws_account.html" title="1. Onboarding an AWS account​"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/050_corestack_lab/50_onboard_aws_account.html" title="1. Onboarding an AWS account​" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/050_corestack_lab/51_infra_as_code.html" title="2. Infra as code – use cases​​" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -1509,3 +1505,4 @@
 
   </body>
 </html>
+
