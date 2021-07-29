@@ -88,7 +88,7 @@
 	"title": "3. AWS Credit Request",
 	"tags": [],
 	"description": "",
-	"content": "To help you cover the AWS service costs incurred by doing this tutorial, AWS Credits are available courtesy of AWS Marketplace. Submit the form and you will receive a confirmation email with an AWS Credit Code. Credits are available while supplies last.  Request AWS Credits         AWS Marketplace is a digital software catalog that makes it easy to find, try, buy, deploy, and manage software that works with AWS. AWS Marketplace has over 8,000 listings from 1,600+ ISV\u0026rsquo;s that can help you master DevOps and drive modern application development in the cloud.\n    "
+	"content": "Submit the form and you will receive a confirmation email with an AWS Credit Code. Credits are available while supplies last.  Request AWS Credits         AWS Marketplace is a digital software catalog that makes it easy to find, try, buy, deploy, and manage software that works with AWS. AWS Marketplace has over 8,000 listings from 1,600+ ISV\u0026rsquo;s that can help you master DevOps and drive modern application development in the cloud.\n    "
 },
 {
 	"uri": "/010_introduction/12_problem_to_solve.html",
@@ -102,7 +102,7 @@
 	"title": "4. Validation of the Infra provisioned against AWS Well Architected Framework",
 	"tags": [],
 	"description": "",
-	"content": " Validation of the Infra provisioned against AWS Well Architected Framework Execute some policies to validate certain AWS Well Architected Framework Controls in the resources provisioned\n CoreStack has support for a growing list of Industry specific Regulatory Compliance standard and Industry benchmark standards necessary for modern corporations in various sectors. CoreStack is committed in bringing industry leading technology in cloud governance with the ease of use unrivaled in today’s complicated tech landscape.\nEach Compliance standard contains various controls or rules which represents guideline to be implemented by the Organization for the resources to comply with.\n***Navigation ***\n Click on Compliance in the Left navigation menu and select Standards option to land in Compliance Controls screen. The tabs at the top represent the scope of the standards. There are 2 tabs – Marketplace and My Standards.  "
+	"content": " Validation of the Infra provisioned against AWS Well Architected Framework Execute some policies to validate certain AWS Well Architected Framework Controls in the resources provisioned\n CoreStack has support for a growing list of Industry specific Regulatory Compliance standard and Industry benchmark standards necessary for modern corporations in various sectors. CoreStack is committed in bringing industry leading technology in cloud governance with the ease of use unrivaled in today’s complicated tech landscape.\nEach Compliance standard contains various controls or rules which represents guideline to be implemented by the Organization for the resources to comply with.\nNavigation\n Click on Compliance in the Left navigation menu and select Standards option to land in Compliance Controls screen. The tabs at the top represent the scope of the standards. There are 2 tabs – Marketplace and My Standards.  "
 },
 {
 	"uri": "/010_introduction/14_partner.html",
@@ -130,7 +130,7 @@
 	"title": "Conclusion",
 	"tags": [],
 	"description": "",
-	"content": "Coming soon\u0026hellip;.Beginning of September for *Auto-remediation*\n"
+	"content": "Coming soon\u0026hellip;.Beginning of September for Auto-remediation\n"
 },
 {
 	"uri": "/010_introduction/18_waf.html",
